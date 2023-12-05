@@ -1,0 +1,108 @@
+.btn-btn1{border-radius: 1rem ;
+background-color: #ffb3bb}
+
+
+.btn-btn2{border-radius: 1rem ;
+background-color: #fff080}
+
+
+.btn-btn3{border-radius: 1rem ;
+background-color: #059862}
+
+.btn-btn0{border-radius: 1rem ;
+background-color: #282a35}
+
+
+
+
+.btn-btn0{padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 1.7rem;
+color: white;}
+    
+.btn-btn1{padding: 0.7rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 1.7rem;
+border: none;}
+    
+.btn-btn2{padding: 0.7rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 1.7rem;
+    border: none}
+    
+.btn-btn3{padding: 0.7rem 2.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 1.7rem;
+    border: none}
+
+
+.btn-btn5{border-radius: 1rem ;
+    background-color: #059862;
+    padding: 0.7rem 2.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 1.7rem;
+    border: none;
+display: none;}
+    
+
+
+
+
+
+
+.items-hover :hover{background-color: #04aa6d;
+}
+
+
+
+
+
+.container-fluid .toggler{display: none;}
+
+
+
+
+
+
+    @media only screen and (max-width: 1000px){
+        .btn-btn0,.btn-btn2,.btn-btn1,.btn-btn3{display: none;}
+
+        .btn-btn5{display: block;}
+
+
+        .toggler{margin-right: 40rem;
+       
+
+            background-color: #059862;
+        
+    
+        ;}
+      
+.container-fluid .toggler{display: block;}
+
+
+
+
+
+    }
+    @media only screen and (max-width: 300px){
+        .btn-btn0,.btn-btn2,.btn-btn1,.btn-btn3{display: none;}
+
+        .btn-btn5{display: block;}
+
+
+        .toggler{margin-right:6rem;
+       
+
+            background-color: #059862;
+        
+    
+        ;}
+      
+.container-fluid .toggler{display: block;}
+    }

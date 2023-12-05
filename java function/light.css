@@ -1,0 +1,34 @@
+/* .imgdiv{
+    margin-top: 5rem;
+    margin-left: 22rem;
+} */
+
+
+body{display: flex;
+justify-content: center;
+align-items: center;
+
+;}
+.buttonnnn{border-radius: 20px;
+border: 0.2rem solid black;
+background-color: black;
+width: 99px;
+height: 40px;
+margin-top: 25rem;
+margin-left: 10rem;
+}
+ .button-on{padding: 0.7rem;
+border-radius: 15px;
+background-color: rgb(189, 239, 90);
+color: white;
+font-weight: bolder;
+} 
+
+
+
+.button-off{padding: 0.7rem;
+border-radius: 15px;
+background-color: rgb(25, 250, 220);
+color: white;
+font-weight: bolder;
+} 

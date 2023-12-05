@@ -1,0 +1,39 @@
+
+
+body{background-color:black;}
+
+
+
+.iphone{display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 10rem;
+
+font-family: 'Krona One', sans-serif;
+background-color: black;
+}
+
+
+.iphone:hover {rotate: 15deg;
+transition: all 2s;}
+
+
+h2 {
+    font-size: 180px;
+    background: -webkit-linear-gradient(40deg, rgb(95, 214, 228) 21%, rgb(148, 101, 250) 51%, rgb(242, 66, 245) 83%);;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;}
+
+
+
+    span{ font-size: 180px;
+        background: -webkit-linear-gradient(40deg, rgb(197, 64, 119) 51%, rgb(236, 123, 136) 83%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;}
+
+
+
+        .icon{ font-size: 180px;
+        background: -webkit-linear-gradient(30deg, rgb(237, 249, 4) 20%, rgb(239, 54, 8) 83%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;}

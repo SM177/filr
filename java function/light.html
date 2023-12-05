@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="light.css">
+    <title>java Script</title>
+</head>
+<body style="background-color: #f7f7f7;">
+    <!-- <button id="red">click me</button>
+    <button id="blue">click me</button> -->
+    
+<div class="imgdiv" >
+
+<img  width="250px" id="bulb"    src="./off.png" alt="">
+
+</div>
+
+
+
+<div class="buttonnnn">
+<input type="button"  class="button-on" value="ON" onclick="bulbon()" >
+
+<input type="button"  class="button-off" value="OF" onclick="bulboff()" >
+
+</div>
+
+
+
+
+    <script>
+
+
+// console.log("hellooooo");
+// const red = document. getElementById("red");
+// const blue = document. getElementById("blue");
+// red.addEventListener("click" ,()=>{
+//     document.body.style.backgroundColor = "red";
+// })
+// blue.addEventListener("click" ,()=>{
+//     document.body.style.backgroundColor = "blue";
+// })
+
+function bulbon(){
+    document.getElementById("bulb").src="./on.png"
+}
+function bulboff(){
+    document.getElementById("bulb").src="./off.png"
+}
+
+
+        
+    
+        
+
+
+
+    </script>
+</body>
+</html>
