@@ -1,0 +1,90 @@
+
+
+
+.help{color:#3d3f41;}
+
+.border{border: 1rem solid gray;
+padding: 2rem;
+}
+
+button.btn1{width: 20vw;
+    margin-left: -2rem;
+    padding: 0.7rem 0.2rem;
+background-color: #36a420;
+font-size: 1.1rem;}
+
+
+button.btn2{padding: 0.7rem ;
+
+font-size: 1.1rem;}
+
+.margin{margin-top: 8rem;
+
+}
+
+.bgcolor{background-color: #f0f2f5;}
+
+.btnsuccess{background-color: #36a420;}
+
+.forgot{margin-left: 6.5rem;}
+.english{padding-top: 1.2rem;}
+.sign{margin-bottom: -1rem;}
+.service{margin-bottom: -1rem;}
+.career{margin-bottom: -1rem;}
+    
+
+ li{list-style: none;
+font-size: 0.8rem;
+color: #4f5254;
+}
+ .container-form a{text-decoration: none}
+ .container-form a:hover{text-decoration: underline}
+
+
+ .page a{text-decoration: none;
+color: rgb(37, 37, 37);}
+ .page a:hover{text-decoration: underline;
+color: rgb(37, 37, 37);}
+ 
+ ul a{text-decoration: none;
+    color:#4f5254}
+ ul a:hover{text-decoration: underline;
+    color:#4f5254;}
+
+ .ptext{font-size: 0.9rem;}
+
+ .metaa{font-size: 0.8rem;
+    color: #4f5254;
+}
+
+ footer{margin-top: 8rem;}
+
+
+/* media media media */
+
+
+@media only screen and (max-width :800px){
+     .forgot{margin-left: 3rem;}
+
+     li{font-size: 0.5rem;}
+
+    .margin{margin-top: -1rem;
+            margin-left: 2rem;}
+
+
+        button.btn1{width: auto;
+            background-color: #36a420;
+            font-size: 0.9rem;
+        font-weight: bolder;}
+      
+        
+            
+
+        .ptext{font-size: 0.8rem;}}
+
+/* footer{width: 100vw;} */
+
+
+
+
+     
